@@ -13,8 +13,8 @@ namespace test2.Controllers
     public class PetController : ControllerBase
     {
         /*
-        ISmtDbService _service;
-        public PetController(ISmtDbService service)
+        IPetService _service;
+        public PetController(IPetService service)
         {
             _service = service;
         }

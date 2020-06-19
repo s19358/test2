@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace test2.Services
 {
-    public interface ISmtDbService
+    public interface IPetService
     {
     }
 }

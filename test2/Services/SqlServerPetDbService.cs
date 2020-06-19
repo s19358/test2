@@ -6,11 +6,11 @@ using test2.Models;
 
 namespace test2.Services
 {
-    public class SqlServerSmtDbService : ISmtDbService
+    public class SqlServerPetDbService : IPetService
     {
 
         private readonly PetDBContext _dbcontext;
-        public SqlServerSmtDbService(PetDBContext context)
+        public SqlServerPetDbService(PetDBContext context)
         {
             _dbcontext = context;
         }

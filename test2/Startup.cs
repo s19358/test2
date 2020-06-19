@@ -28,7 +28,7 @@ namespace test2
         public void ConfigureServices(IServiceCollection services)
         {
 
-            //services.AddTransient<ISmtDbService, SqlServerSmtDbService>();
+            //services.AddTransient<IPetService, SqlServerPetDbService>();
             services.AddDbContext<PetDBContext>(options =>
             {
                 options.UseSqlServer("Data Source=db-mssql;Initial Catalog=s19358;Integrated Security=True");
